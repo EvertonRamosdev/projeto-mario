@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    cursor: pointer;
+}
+.logo-mario {
+    height: 200px
+}
+
+body {
+    height: 100vh;
+    
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content:space;
+    padding: 400px;
+    height: 80vh;
+}
+
+.caixa-principal {
+    width: 100vw;
+
+}
+
+.entre-em-contato {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:20px;    
+    cursor: pointer
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.imagem-mario-luigi {
+    width: 500px;
+    cursor:wait;
+    z-index: 2;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p{
+    color: white;
+    width: 600px;
+    margin: 10px;
+    text-align:justify ;
+}
+
+.link img{
+    height: 80px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;            
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.header img{
+    height: 60px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover { color: #C51111;
+    font-size: 20px;
+    transition: 0.4s color ease-in-out;
+
+}
+
+
+.formulario-fale-conosco{
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -300px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+input{
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline: #18D80F;
+}
+
+textarea{
+    width: 2;
+    height: 100px;
+    border-radius: 1px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F   ;
+}
+.mascara-formulario{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+/*
+
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,249,255,1) 100%);
+
+
+
+left:50%;
+trasform:translateX(-50%);*/
